@@ -9,3 +9,6 @@ def twoSum(nums, target):
             return [num_indices[target - num], i]
         # If it doesn't, add the current element's index to the dictionary
         num_indices[num] = i
+    # If no solution is found, return []
+    return []
+
