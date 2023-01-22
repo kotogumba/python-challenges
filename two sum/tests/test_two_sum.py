@@ -30,7 +30,7 @@ class TestTwoSum(unittest.TestCase):
         nums = [-2, 7, -11, 15]
         target = 4
         result = twoSum(nums, target)
-        self.assertEqual(result, [2ga, 3])
+        self.assertEqual(result, [2, 3])
 
 if __name__ == '__main__':
     unittest.main()
